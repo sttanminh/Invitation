@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import './style/eventDetails.css'; // Import the CSS file
 
 export default function EventDetails() {
   const router = useRouter();

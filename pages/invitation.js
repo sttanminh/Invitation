@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import './style/invitation.css'; // Ensure the correct path to the CSS file
 
 export default function Invitation() {
   const router = useRouter();

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Modal from './Modals'; // Adjust this path as necessary
 import Link from 'next/link';
 
+
 export default function Home() {
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
